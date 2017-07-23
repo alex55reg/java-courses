@@ -1,11 +1,11 @@
-public class Calculator {
+п»їpublic class Calculator {
 	/**
-		Результат вычисления
+		Р РµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёСЏ
 	*/
 	private double result;
 	/**
 
-		Арифметические операции. @param params Аргументы операций.
+		РђСЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ РѕРїРµСЂР°С†РёРё. @param params РђСЂРіСѓРјРµРЅС‚С‹ РѕРїРµСЂР°С†РёР№.
 	*/
 	public void summ(double ... params) {
 		for (double param : params) {
@@ -26,7 +26,7 @@ public class Calculator {
 		this.result = Math.pow (a, b);
 	}
  	/**
-		Получить результат. @result - результат вычисления.
+		РџРѕР»СѓС‡РёС‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚. @result - СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёСЏ.
 	*/
 	public double getResult() {
 		return this.result;
@@ -34,7 +34,7 @@ public class Calculator {
 
 
 	/**
-		Очистиь результат вычислений
+		РћС‡РёСЃС‚РёСЊ СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёР№
 	*/
 	public void cleanResult() {
 		this.result = 0;
